@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    padding: 0 !important;
+    background: #3498db;
+    margin: 0 !important;
+}
+
+.navbar-brand {
+    width: 35px !important;
+    height: 35px !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-size: 25px !important;
+}
+
+.header {
+    background: #3498db;
+}
+
+/*.overlay {
+    background: rgba( 0, 0, 0, 0.3)
+}*/
+
+.nav-item {
+    margin-left: 17px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: .8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.active-link {
+    border-bottom: 2px solid #fff;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    padding: initial !important;
+}
+
+.banner {
+    margin-top: 8% !important;
+    color: #fff;
+}
+
+.banner h1 {
+    margin: 40px 0;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.btn {
+    margin-right: 15px !important;
+    margin-top: 15px !important;
+    text-transform: uppercase;
+}
+
+.service {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.title {
+    font-weight: 600;
+    color: #808080;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hr {
+    width: 20%;
+    margin-left: 445px;
+    height: 1px;
+    background: #3498db;
+}
+
+#service-single {
+    margin-top: 70px !important;
+    margin-bottom: 40px !important;
+}
+
+.service .col-md-4:hover {
+    background: #3498db;
+    color: #fff;
+    border-radius: 20px;
+    transition: .5s ease-in-out;
+}
+
+.service .col-md-4:hover span {
+    color: #fff !important;
+}
+
+.service span {
+    color: #3498db !important;
+    padding-top: 15px;
+}
+
+.subtitle {
+    margin: 50px 0;
+}
+
+.about {
+    margin: 50px 0;
+}
+
+.about img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 0 9px 9px 1px rgba(204, 204, 204, 0.9)
+}
+
+#mypic2 {
+    border-radius: 10px;
+}
+
+#about-single {
+    margin-top: 70px !important;
+}
+
+.col-md-6:nth-child(2) {
+    padding: 40px 20px;
+    margin-top: 10px;
+}
+
+.col-md-6:nth-child(2):hover {
+    background: #3498db;
+    color: #fff;
+    border-radius: 20px;
+    transition: .5s ease-in-out;
+}
+
+.col-md-6:nth-child(2):hover .about-btn{
+    background: transparent;
+    border: 1px solid#fff;
+    
+}
+
+.about-btn {
+    background: #3498db !important;
+    color: #fff !important;
+    margin-top: 40px !important;
+    padding: 10px !important;
+}
+
+
+.about h2{
+    font-size: 40px;
+}
+
+
+.carousel-item img {
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+}
+
+.carousel-item {
+    text-align: center;
+    height: 430px;
+}
+
+.carousel-btn {
+    background: #3498db !important;
+    color: #fff !important;
+    margin: 30px 0 !important;
+    padding: 10px !important;
+    border: none !important;
+}
+
+.carousel-item .col-md-3{
+    box-shadow: 5px 5px 5px 5px rgba(204, 204, 204, 0.9);
+    margin-right: 95px;
+}
+
+.carousel-item {
+    margin: 70px 0 !important;
+}
+
+
+.carousel-indicators li{
+    background-color: #000 !important;
+}
+
+#portfolio {
+    margin: 50px 0;
+}
+
+#skill {
+    margin: 50px 0;
+}
+
+#skill .col-md-3{
+    box-shadow: none;
+    margin-right: 0;
+    height: 100%;
+}
+
+#skill .carousel-item{
+    height: 100%;;
+}
+
+#skill .col-md-3 img:hover{
+    transform: rotate(360deg);
+    transition: .5s ease-in-out;
+}
+
+#skill .col-md-3 img{
+    width: 100px;
+    height: 100px;
+}
+
+#contact {
+    margin: 50px 0;
+}
+
+#contact i {
+    color: #3498db;
+}
+
+#contact .btn-info{
+    background: #3498db !important;
+}
+
+#contact .col-md-6 { 
+    padding: 0 0 !important;
+    margin-top: 50px !important;
+}
+
+#contact .col-md-6:hover{
+    background: #fff;
+    color: #000
+}
+
+#contact p>i {
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
